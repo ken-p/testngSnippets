@@ -1,12 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="api" parallel="classes" thread-count="1" verbose="2"  group-by-instances="true">
+<suite name="the_suite" parallel="classes" thread-count="5" verbose="10"  group-by-instances="true">
 
-    <test name="API" >
+    <test name="the_test_group" >
         <packages>
             <package name="deadlock.package1" />
         </packages>
     </test>
-
 
 </suite>
